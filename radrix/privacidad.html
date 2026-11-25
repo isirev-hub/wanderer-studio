@@ -23,7 +23,7 @@
 
 <section id="es" lang="es">
 <h1>Política de privacidad de Radrix</h1>
-<p class="muted">Última actualización: 9 de noviembre de 2026</p>
+<p class="muted">Última actualización: 25 de noviembre de 2026</p>
 
 <p>Radrix es un comparador de precios gratuito para Android desarrollado por Wanderer Studio (desarrollador individual). Esta política explica qué datos usa la aplicación y por qué.</p>
 
@@ -38,7 +38,15 @@
 <p>La lista de tiendas y categorías, los productos que sigues y sus precios, y tus ajustes (idioma, país, tema, avisos). Estos datos no salen de tu móvil salvo que tú los compartas con la función «Compartir tiendas». Se borran al desinstalar la aplicación o desde Ajustes → Mis datos.</p>
 
 <h2>Conexiones a internet</h2>
-<p>Para comparar precios, Radrix consulta directamente las páginas web públicas de las tiendas que tienes activadas, igual que lo haría un navegador. Esas tiendas reciben la consulta de búsqueda y datos técnicos habituales (como tu dirección IP), sujetos a sus propias políticas de privacidad. Para los libros también se consulta Open Library (openlibrary.org). Radrix no tiene servidores propios que reciban tus búsquedas.</p>
+<p>Para comparar precios, Radrix consulta directamente las páginas web públicas de las tiendas que tienes activadas, igual que lo haría un navegador. Esas tiendas reciben la consulta de búsqueda y datos técnicos habituales (como tu dirección IP), sujetos a sus propias políticas de privacidad. Para los libros también se consulta Open Library (openlibrary.org). Radrix no envía a ningún servidor propio lo que buscas.</p>
+<h2>Servidor de Wanderer Studio</h2>
+<p>Radrix usa un servidor propio de Wanderer Studio (radrix-tiendas.wanderer-studio.workers.dev, alojado en Cloudflare) solo para estas tres cosas:</p>
+<ul>
+<li><strong>Catálogo de tiendas:</strong> la app descarga la lista de tiendas por país. Al hacerlo, el servidor recibe tu país y los datos técnicos habituales de cualquier conexión, como la dirección IP.</li>
+<li><strong>Avisos de tiendas que fallan (opcional):</strong> si dejas activada la opción «Ayudar a la comunidad» en Ajustes, la app envía, sin identificarte, qué tiendas del catálogo no responden o están bloqueadas, y los arreglos de buscador que ha encontrado. No se envía qué has buscado. Puedes apagarlo en Ajustes.</li>
+<li><strong>Compartir una tienda (opcional):</strong> solo si pulsas «Compartir», se envía esa tienda (nombre, web, buscador y categoría).</li>
+</ul>
+<p>El servidor no guarda tu dirección IP: guarda únicamente una huella cifrada con una clave secreta, que sirve para contar que un aviso viene de personas distintas y para poner un límite diario. No hay cuentas ni se crean perfiles. Para pedir que se borre algo, escribe a wanderer.studio.apps@gmail.com.</p>
 
 <h2>Cámara</h2>
 <p>La cámara solo se usa, si das permiso, para leer códigos de barras. Las imágenes no se guardan ni se envían.</p>
@@ -66,7 +74,7 @@
 
 <section id="en" lang="en">
 <h1>Radrix Privacy Policy</h1>
-<p class="muted">Last updated: November 9, 2026</p>
+<p class="muted">Last updated: November 25, 2026</p>
 
 <p>Radrix is a free price comparison app for Android developed by Wanderer Studio (individual developer). This policy explains what data the app uses and why.</p>
 
@@ -81,7 +89,15 @@
 <p>Your list of stores and categories, the products you track and their prices, and your settings (language, country, theme, alerts). This data does not leave your phone unless you share it with the "Share stores" feature. It is deleted when you uninstall the app or from Settings → My data.</p>
 
 <h2>Internet connections</h2>
-<p>To compare prices, Radrix queries the public web pages of the stores you have enabled, just as a browser would. Those stores receive the search query and usual technical data (such as your IP address), subject to their own privacy policies. For books, Open Library (openlibrary.org) is also queried. Radrix has no servers of its own that receive your searches.</p>
+<p>To compare prices, Radrix queries the public web pages of the stores you have enabled, just as a browser would. Those stores receive the search query and usual technical data (such as your IP address), subject to their own privacy policies. For books, Open Library (openlibrary.org) is also queried. Radrix does not send what you search for to any server of its own.</p>
+<h2>Wanderer Studio server</h2>
+<p>Radrix uses a server run by Wanderer Studio (radrix-tiendas.wanderer-studio.workers.dev, hosted on Cloudflare) only for these three things:</p>
+<ul>
+<li><strong>Store catalog:</strong> the app downloads the list of stores for your country. When it does, the server receives your country and the usual technical data of any connection, such as the IP address.</li>
+<li><strong>Reports of failing stores (optional):</strong> if you leave "Help the community" turned on in Settings, the app sends, without identifying you, which catalog stores do not respond or are blocked, and the search fixes it has found. What you searched for is not sent. You can turn it off in Settings.</li>
+<li><strong>Sharing a store (optional):</strong> only if you tap "Share", that store (name, website, search address and category) is sent.</li>
+</ul>
+<p>The server does not keep your IP address: it keeps only an encrypted fingerprint made with a secret key, used to count that a report comes from different people and to set a daily limit. There are no accounts and no profiles are built. To ask for something to be deleted, write to wanderer.studio.apps@gmail.com.</p>
 
 <h2>Camera</h2>
 <p>The camera is only used, with your permission, to scan barcodes. Images are neither stored nor sent.</p>
